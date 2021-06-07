@@ -18,7 +18,7 @@ function sortArray()
 }
 function searching()
 {
-    var s= document.getElementById("arrayDisplayComma").value;
+    var s= document.getElementById("search").value;
     var found=0;
     var j;
     for (j=0; j<nameOfGuest.length; j++)
